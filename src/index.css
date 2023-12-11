@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap);
+
+:root {
+    --theme-switcher: rgb(30 48 80);
+    --background-color: #f3f5f8;
+    --input-color: black;
+    --main-font-color: #3d535f;
+    --second-font-color: rgba(128, 0, 255, 0.5);
+    --third-font-color: #7f00ff;
+    --hover-color: #7f00ff;
+    --card-hover-color: #f3f5f8;
+    --object-color: linear-gradient(45deg, #7f00ff, pink);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@media(max-width: 430px) {
+    body {
+        overflow-y: auto;
+    }
+}
