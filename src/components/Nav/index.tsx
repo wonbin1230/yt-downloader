@@ -27,8 +27,7 @@ const Nav = () => {
 				</Logo>
 				<ItemList>
                     <Item to="https://yu-website.duckdns.org/" text="Home" />
-                    <Item to="#" text="About" />
-                    <Item to="#" text="Skills" />
+                    <Item to="https://yu-website.duckdns.org/skills" text="Skills" />
                     <Item to="https://yu-website.duckdns.org/ytdl" text="YouTube Downloader" subLink subTitle="SideProjects" />
 				</ItemList>
 				<Community>
@@ -37,6 +36,9 @@ const Nav = () => {
 					</a>
 					<a href="https://www.instagram.com/yu___1230/" target="_blank" rel="noreferrer">
 						<i className="fab fa-instagram"></i>
+					</a>
+                    <a href="https://github.com/wonbin1230/" target="_blank" rel="noreferrer">
+						<i className="fab fa-github"></i>
 					</a>
 				</Community>
                 <MenuIconMobile>
