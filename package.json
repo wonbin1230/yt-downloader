@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "vite --port 3000 --host",
 		"build": "tsc && vite build",
-		"build-p": "tsc && vite build --mode production --base=/ytdl/ && rd /s /q \"D:/webpack/yt-downloader/build\" && robocopy /s /e dist D:/webpack/yt-downloader/build",
+		"build-p": "tsc && vite build --mode production --base=/ytdl/ && rd /s /q \"E:/mount/webpack/yt-downloader/build\" && robocopy /s /e dist E:/mount/webpack/yt-downloader/build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview"
 	},

@@ -46,7 +46,7 @@ const Preview = () => {
 	const handleSlider = (valueBegin: number, valueEnd: number) => {
 		if (videoRef.current) {
 			videoRef.current.currentTime = valueBegin;
-			setPauseTime(valueEnd);
+			dispatch(setPauseTime(valueEnd));
 			videoRef.current.play();
 		}
 	};
